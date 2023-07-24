@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - denisbicakcic/py-flask:v0.1.1
