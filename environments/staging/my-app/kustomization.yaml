@@ -4,7 +4,7 @@ replicas:
   - name: nginx-deployment
     count: 2
 images:
-  - name: denisbicakcic00/nginx-argocd
+  - name: denisbicakcic00/flask-app
     newTag: v0.1.0
 resources:
   - ../../../my-app-base
