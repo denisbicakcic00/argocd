@@ -17,6 +17,6 @@ spec:
       containers:
         - name: nginx
           imagePullPolicy: Always
-          image: denisbicakcic00/py-flask
+          image: denisbicakcic/py-flask
           ports:
             - containerPort: 80
